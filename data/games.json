@@ -1,0 +1,52 @@
+[{
+    "name": "Rising Star - The Horse Game",
+    "description": "Rising Star is a relaxing horse care simulator game with immersive horsemanship tasks and management features. Players inherit their grandfather's stable, once a renowned equestrian academy in Tuscany, and are tasked with restoring it to its former glory.",
+    "platforms": ["PC", "Mac"],
+    "genres": ["Simulation", "Virtual Pet", "Management/Automatisation"],
+    "features": [
+      "Horse care and management",
+      "Show jumping competitions",
+      "Cooking minigames",
+      "Stall cleaning tasks",
+      "Resource and energy management",
+      "Pixel art graphics",
+      "Character customization",
+      "Single-player mode"
+    ],
+      "get": "https://steamcommunity.com/app/2141460",
+      "imgurl": "../../risingimg.png"    
+  },
+
+  {
+    "name": "Parrotchi",
+    "description": "Parrotchi is a virtual pet game where players care for a digital parrot. It features AI-powered chat for natural interactions and a mini-game to learn and practice Irish.",
+    "platforms": ["PC"],
+    "genres": ["Simulation", "Virtual Pet", "Educational", "Irish Language Learning"],
+    "features": [
+      "Feed and care for your parrot",
+      "Engage in conversations and play mini-games",
+      "Monitor and manage your parrot's mood and needs",
+      "User-friendly interactive GUI"
+    ],
+    "get": "https://github.com/PradoGA/Parrotchi",
+    "imgurl": "../../parrotchiimg.png"  
+  },
+
+  {
+    "name": "Chaos Decision",
+    "description": "Chaos Decision is an early-life simulation where you make decisions in the initial stages of your creature’s development, shaping their behaviors as an adult. You have only 20 seconds.",
+    "platforms": ["PC", "Mobile"],
+    "genres": ["Simulation", "Life Simulation"],
+    "features": [
+      "Time-limited decision-making",
+      "Dynamic creature behavior",
+      "Multiple outcomes based on choices",
+      "Fast-paced gameplay"
+    ],
+    "get": "Not Available",
+    "imgurl": "../../chaosimg.png"
+  }
+  
+
+]
+

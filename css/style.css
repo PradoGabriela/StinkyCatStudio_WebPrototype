@@ -1,0 +1,982 @@
+
+/*Setting up palette colors*/
+.yellowC{
+
+    background-color: #FFD83B;
+}
+
+.cyanC{
+    background-color: #00C4CC;
+}
+
+.purpleC{
+
+    background-color: #6422B8;
+}
+
+.pinkC{
+    background-color: #FF738E;
+}
+
+.whiteC{
+    color: white;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.fligther{
+    font-weight: lighter;
+}
+
+.fblack
+{
+    color: black;
+}
+a{
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+
+
+body {
+    font-family: 'DynaPuff', sans-serif;
+}
+
+
+
+#mainholder{
+    margin: auto;
+    width: 100%;
+
+   
+
+}
+
+/* Mobile-start */
+
+@media screen and (max-width: 800px)  {
+    /*Mobile Menu*/
+
+    #sideMenu{
+        display: none;
+   
+
+
+    }
+
+    #menuPhone{
+        float:right;
+        color: black;
+        padding-right: 5px;
+        padding-top: 5px;
+
+    }
+
+    #menuPhone.sticky {
+        position: fixed; /* Sticky when scrolled past */
+        top: 0;
+        color: black;
+      
+      }
+
+      .phoneList{
+       
+        margin: auto;
+        width: 40%;
+        text-align: center;
+        list-style: none;
+        margin-top: 16px;
+        padding: 20px;
+      
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+       
+    }
+    
+    .phoneList:hover{
+
+       border: solid 3px black;
+
+    }
+    #sideMenu{
+        padding-top: 30px;
+        width:100%;
+       background-color: #97d5c44a;
+        padding-bottom: 10px;
+         height: 600px;
+        
+        
+       
+    }
+
+    html.noScroll, body.noScroll{
+        
+        overflow:hidden;
+        height: 100%;
+    }
+
+    #menuIconP{
+        padding-right: 8px;
+        padding-top: 8px;
+     
+    }
+   
+
+    /*Header*/
+    #topMenu{
+       
+        background-color: white;
+        min-height: 40px;
+        height: 60px;
+        width: 100%;
+        top: 0;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        
+    }
+
+    #topMenu.sticky {
+        position: fixed; /* Sticky when scrolled past */
+        top: 0;
+        width: 100%;
+    }
+
+    #navBarLinks{
+        display: none;
+        text-align: center;
+        padding-top: 14px;
+    }
+
+    .navLink{
+    
+        display: inline-block;
+            width:10%;
+            min-height: 50px;
+            padding-top: 18px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            
+            
+
+    }
+
+    a:link{
+        text-decoration: none;
+        
+    } 
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:link:active, a:visited:active, a:hover {
+        color: black;
+    }
+
+
+    .logoS{
+        float: left;
+        min-width: 60px;
+        width: 6.5%;
+        max-width: 180px;
+        padding-left: 30px;
+        padding-top: 2px;
+    }
+
+    .socialIcon{
+        display: none;
+        float: right;
+        min-width: 40px;
+        width: 4%;
+        max-width: 60px;
+        padding-right: 15px;
+        padding-top: 30px;
+    }
+
+    /*end Header*/
+
+    /*Home page*/
+
+    .firstblock
+    {
+    width: 100%;
+    display: inline-block;
+    }
+    .leftblock
+    {
+        width: 100%;
+       
+        min-height: 500px;
+        
+    }
+
+
+    .insideblock
+    {
+        width: 103%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .title1{
+        padding-top: 30px;
+        padding-left: 30px;
+    
+    }
+    .textW{
+        margin-left: 40px;
+        margin-right: 58px;
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-size:medium;
+    }
+
+    .title2{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        
+    
+    }
+    .title3{
+        display: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 45px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .rightblock{
+        width: 100%;
+     
+    }
+
+    .paralaximage1{
+        background-image: url('../../teamimage2.png'); 
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+    }
+    .logoC{
+        float: right;
+        margin-right: 20px;
+    }
+
+    .imgblock{
+        display: none;
+        margin-top: -120px;
+        padding-left: 10%;
+        width: 70%;
+    }
+
+
+    .leftblockMirrowed
+    {
+       
+        width: 100%;
+        min-height: 470px;
+    }
+
+    .secondblock{
+        width: 100%;
+    }
+
+    .imgblock2{
+        display: none;
+        width: 70%;
+        margin-top: -40px;
+    
+    
+    }
+
+    .rightblockMirrowed{
+        width: 100%;
+        background-image: url('../../teamimg.png'); 
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+    
+    }
+    .insideblockMirrowed{
+
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+    .paralaximage2{
+    
+        width: 100%;
+        background-image: url('../../gamesimg.png'); 
+        min-height: 380px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:contain;
+        padding-top: 100px;
+        padding-bottom: -100px;
+    }
+
+    .imgblock4{
+        display: none;
+        margin-top: -110px;
+        margin-right: 40px;
+        width: 80%;
+    }
+    /*END HOME PAGE*/
+
+
+    /*FOOTER*/
+
+    footer{
+        text-align: center;
+        background-color: #6422B8;
+        color: lightgray;
+    
+        max-height: 180px;
+    
+    
+    
+    }
+
+    #footList{
+    display:flex;
+    
+    
+
+    }
+    .foottitle{
+        font-size: x-small;
+    }
+
+    .footlist li{
+
+    }
+
+    .footLinks{
+        color: lightgray;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size:xx-small;
+        list-style-type: none;
+    
+        
+    }
+
+    .afoot:link, .afoot:visited {
+        color: lightgray;
+    text-decoration: none;
+    }
+
+    .afoot:link:active, .afoot:visited:active, .afoot:hover {
+    color: lightgray;
+    }
+
+    .copyText{
+        font-weight: lighter;
+        letter-spacing: 3px;
+        padding-top: 5px;
+        padding-left: 30px;
+        font-size: small;
+        padding-right: 50px;
+    }
+    .socialIconF{
+      float:inherit;
+      
+        min-width: 10px;
+        width: 10%;
+        max-width: 30px;
+    
+    
+    }
+
+
+    /*Services*/
+    .infoS{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .block1{
+            border-bottom: black 2px solid;
+    }
+
+    .titleS{
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 40px;
+    padding-left: 20px;
+    
+    }
+
+    .block1 p, .block1 li {
+        color: #555;
+    }
+
+    .block1 strong {
+        color: #333;
+    }
+
+
+    /*END SERVICES PAGE*/
+
+    /*CONTACT*/
+
+    .titleS2{
+        width: 120%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    }
+
+    .iconC{
+        width: 10%;
+    }
+    .contactblock{
+        padding-left: 30%;
+    }
+
+    .contactblock2{
+        width: 60%;
+        min-height: 400px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 80px;
+        
+    }
+
+
+    input, textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 15px 0 10px 15px;
+    
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    textarea{
+        min-height: 200px;
+    
+    }
+    button {
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 95%;
+        cursor: pointer;
+        background-color: #00C4CC;
+        margin: 15px 0 10px 15px;
+    
+    }
+    button:hover {
+        background: lightgray;
+        color: black;
+    }
+    .message {
+        display: none;
+        color:#FF738E;
+        margin-top: 10px;
+    }
+
+
+    /*Games Page*/
+    .game-container {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 80%;
+        margin-bottom: 40px;
+    
+        margin-left: 40px;
+
+        
+    }
+    .game-info {
+        padding: 20px;
+        flex: 1;
+        border:#00C4CC solid 6px;
+
+        
+    }
+    .game-info h2 {
+        margin: 0;
+        font-size: 16px;
+    }
+    .game-info p {
+        font-size: 12px;
+        color: #555;
+    }
+    .game-info strong {
+        color: #333;
+    }
+    .game-image {
+        width: 100%;
+        background: #ddd;
+        
+        border: 2px solid #00C4CC;
+        
+    }
+    .game-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    
+    }
+    .game-info a{
+        color: #555;
+    }
+
+    .game-info a:hover{
+        color: black;
+    }
+    .videoY{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    /*Contact Page*/
+    .titleMobileC{
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 40px;
+    padding-left: 20px;
+    }
+
+    .contactblock2{
+        margin-left: 30px;
+        width: 80%;
+    }
+  
+}
+
+
+/* Desktop-start */
+
+@media screen and (min-width: 820px)  {
+    
+    /*Mobile*/
+
+    #menuPhone{
+        display: none;
+    }
+
+    #sideMenu{
+        display: none;
+    }
+
+    .phoneList
+    {
+        display: none;
+    }
+
+    /*Header*/
+    #topMenu{
+        background-color: white;
+        min-height: 100px;
+        height: 120px;
+        width: 100%;
+        top: 0;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        
+    }
+
+    #topMenu.sticky {
+        position: fixed; /* Sticky when scrolled past */
+        top: 0;
+        width: 100%;
+    }
+
+    #navBarLinks{
+        text-align: center;
+        padding-top: 14px;
+    }
+
+    .navLink{
+    
+        display: inline-block;
+            width:10%;
+            min-height: 50px;
+            padding-top: 18px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            
+            
+
+    }
+
+    a:link{
+        text-decoration: none;
+        
+    } 
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:link:active, a:visited:active, a:hover {
+        color: black;
+    }
+
+
+    .logoS{
+        float: left;
+        min-width: 100px;
+        width: 6.5%;
+        max-width: 180px;
+        padding-left: 30px;
+        padding-top: 8px;
+    }
+
+    .socialIcon{
+        float: right;
+        min-width: 40px;
+        width: 4%;
+        max-width: 60px;
+        padding-right: 15px;
+        padding-top: 30px;
+    }
+
+    /*end Header*/
+
+    /*Home page*/
+
+    .firstblock
+    {
+    width: 100%;
+    display: inline-block;
+    }
+    .leftblock
+    {
+        width: 50%;
+        float: left;
+        min-height: 600px;
+        margin-top: 10px;
+    }
+
+
+    .insideblock
+    {
+        width: 103%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .title1{
+        padding-top: 70px;
+        padding-left: 30px;
+    
+    }
+    .textW{
+        margin-left: 40px;
+        margin-right: 58px;
+        margin-bottom: 30px;
+        line-height: 40px;
+        font-size: x-large;
+    }
+
+    .title2{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        
+    
+    }
+    .title3{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 45px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .rightblock{
+        float: right;
+        width: 49%;
+    }
+
+    .logoC{
+        float: right;
+        margin-right: 40px;
+    }
+
+    .imgblock{
+        margin-top: -120px;
+        padding-left: 10%;
+        width: 70%;
+    }
+
+
+    .leftblockMirrowed
+    {
+        width: 50%;
+        float: right;
+        min-height: 600px;
+    }
+
+    .secondblock{
+        width: 100%;
+    }
+
+    .imgblock2{
+        width: 70%;
+        margin-top: -40px;
+    
+    
+    }
+
+    .rightblockMirrowed{
+        float: left;
+    
+    
+        width: 49%;
+    
+    }
+    .insideblockMirrowed{
+
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    }
+
+    .imgblock4{
+    margin-top: -110px;
+        margin-right: 40px;
+        width: 80%;
+    }
+    /*END HOME PAGE*/
+
+
+    /*FOOTER*/
+
+    footer{
+        text-align: center;
+        background-color: #6422B8;
+        color: lightgray;
+        min-height: 120px;
+    
+    
+    
+    }
+
+    #footList{
+    display:inline-flex;
+    
+    
+
+    }
+
+    .footlist li{
+
+    }
+
+    .footLinks{
+        color: lightgray;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: small;
+        list-style-type: none;
+    
+        
+    }
+
+    .afoot:link, .afoot:visited {
+        color: lightgray;
+    text-decoration: none;
+    }
+
+    .afoot:link:active, .afoot:visited:active, .afoot:hover {
+    color: lightgray;
+    }
+
+    .copyText{
+        font-weight: lighter;
+        letter-spacing: 3px;
+        padding-top: 50px;
+        padding-left: 90px;
+    }
+    .socialIconF{
+        float: right;
+        min-width: 10px;
+        width: 10%;
+        max-width: 60px;
+        padding:  20px;
+    
+    }
+
+
+    /*Services*/
+    .infoS{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .block1{
+            border-bottom: black 2px solid;
+    }
+
+    .titleS{
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 40px;
+    padding-left: 20px;
+    
+    }
+
+    .block1 p, .block1 li {
+        color: #555;
+    }
+
+    .block1 strong {
+        color: #333;
+    }
+
+
+    /*END SERVICES PAGE*/
+
+    /*CONTACT*/
+
+    .titleS2{
+        width: 120%;
+        box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+    padding-left: 20px;
+    
+    }
+
+    .iconC{
+        width: 10%;
+    }
+    .contactblock{
+        padding-left: 30%;
+    }
+
+    .contactblock2{
+        width: 60%;
+        min-height: 400px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 80px;
+        
+    }
+
+
+    input, textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 15px 0 10px 15px;
+    
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    textarea{
+        min-height: 200px;
+    
+    }
+    button {
+        color: white;
+        border: none;
+        padding: 10px;
+        width: 95%;
+        cursor: pointer;
+        background-color: #00C4CC;
+        margin: 15px 0 10px 15px;
+    
+    }
+    button:hover {
+        background: lightgray;
+        color: black;
+    }
+    .message {
+        display: none;
+        color:#FF738E;
+        margin-top: 10px;
+    }
+
+
+    /*games Page*/
+    .game-container {
+        display: flex;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 80%;
+        margin-bottom: 40px;
+    
+        margin-left: 80px;
+
+        
+    }
+    .game-info {
+        padding: 20px;
+        flex: 1;
+        border-right: 8px solid #00C4CC;
+        border-bottom: 8px solid #00C4CC;
+
+        
+    }
+    .game-info h2 {
+        margin: 0;
+        font-size: 22px;
+    }
+    .game-info p {
+        font-size: 14px;
+        color: #555;
+    }
+    .game-info strong {
+        color: #333;
+    }
+    .game-image {
+        width: 250px;
+        background: #ddd;
+        margin-left: 30px;
+        border: 2px solid #00C4CC;
+        
+    }
+    .game-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    
+    }
+    .game-info a{
+        color: #555;
+    }
+
+    .game-info a:hover{
+        color: black;
+    }
+    .videoY{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /*Contact Page*/
+    .titleMobileC
+    {
+        display: none;
+    }
+}
+

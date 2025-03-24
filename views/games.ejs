@@ -1,0 +1,33 @@
+<%- include('../partials/header') -%>
+
+
+   
+<div class="titleS cyanC">
+    <h1 class="fligther "> Games</h1>
+</div>
+<div id="games-container">
+    <% games.forEach(game => { %>
+        <div class="game-container">
+            <div class="game-info">
+                <h2><%= game.name %></h2>
+                <p><%= game.description %></p>
+                <p><strong>Platforms:</strong> <%= game.platforms.join(', ') %></p>
+                <p><strong>Genre:</strong> <%= game.genres.join(', ') %></p>
+                <p><strong>Features:</strong> <%= game.features.join(', ') %></p>
+                <p><strong>Download:</strong> <a href="<%= game.get %>"><%= game.get %></a></p>
+            </div>
+            <div class="game-image">
+                <img src="<%= game.imgurl %>" alt="<%= game.name %>">
+            </div>
+        </div>
+    <% }); %>
+</div>
+<div>
+    <h1>Next Launch:</h1>
+    <div class="videoY">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RYD9qQHT14w?si=cARKPyfYeyVcvtKL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+  
+
+    <%- include('../partials/footer') -%>
